@@ -1,8 +1,9 @@
 #include <iostream>
+#include "window.h"
 
 int main(int argc, char **argv)
 {
-    std::cout << "school-manager placeholder" << std::endl;
+    print("school-manager placeholder");
 
     return 0;
 }

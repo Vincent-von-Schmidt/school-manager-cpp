@@ -1,9 +1,13 @@
 #include <iostream>
+#include <QApplication>
+
 #include "window.h"
 
 int main(int argc, char **argv)
 {
-    print("school-manager placeholder");
+    QApplication app (argc, argv);
 
-    return 0;
+    Window *window = new Window;
+
+    return app.exec();
 }

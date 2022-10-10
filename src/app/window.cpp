@@ -1,6 +1,20 @@
 #include <iostream>
+#include <QFrame>
+#include <QLabel>
+#include <QVBoxLayout>
 
-void print(std::string &text)
+class Window: public QFrame
 {
-    std::cout << text << std::endl;
-}
+    public:
+        Window(): QFrame()
+        {
+            QVBoxLayout *layout = new QVBoxLayout(this);
+
+            QLabel *test = new QLabel("test");
+
+            layout->addWidget(test);
+
+            this->setLayout(layout);
+            this->show();
+        }
+};

@@ -1,3 +1,8 @@
 #include <iostream>
+#include <QFrame>
 
-void print(std::string);
+class Window: QFrame
+{
+    public:
+        Window();
+};

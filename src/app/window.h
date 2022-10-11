@@ -1,8 +1,13 @@
+#ifndef WINDOW_H
+#define WINDOW_H
+
 #include <iostream>
 #include <QFrame>
 
-class Window: QFrame
+class MainWidget
 {
     public:
-        Window();
+        MainWidget();
 };
+
+#endif

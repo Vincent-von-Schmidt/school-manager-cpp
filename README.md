@@ -12,8 +12,12 @@
 ## build
 ### cmake
 ```
-cmake -DCMAKE_PREFIX_PATH=/Qt/6.4.0/msvc2019_64 -S <source-dir> -B <build-dir>
+cmake -DCMAKE_PREFIX_PATH=/Qt/6.4.0/msvc2019_64 -S . -B build/
+cd build/
+make
+cd ../bin/school-manager
 ```
+
 executable will be in the bin/ subdirectory
 ### docker
 Support will be added soon. 

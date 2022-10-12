@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 {
     QApplication app (argc, argv);
 
-    MainWidget *window = new MainWidget;
+    MainWidget *main_widget = new MainWidget;
 
     return app.exec();
 }

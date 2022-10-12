@@ -1,3 +1,15 @@
 .vscode
+.fleet
 CMakeFiles/
 CMakeCache.txt
+Makefile
+build/
+bin/
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+src/app/bin/
+src/app/CMakeFiles/
+src/app/cmake_install.cmake
+src/app/Makefile
+src/app/school-manager

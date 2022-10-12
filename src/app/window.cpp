@@ -18,5 +18,6 @@ MainWidget::MainWidget()
     layout->addWidget(test);
 
     this->setLayout(layout);
+    this->resize(1280, 720);
     this->show();
 }

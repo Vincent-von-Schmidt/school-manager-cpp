@@ -9,6 +9,10 @@
   - google calendar sync
 - exam planer 
   - google calendar sync 
+- multi language support
+  - en_us
+  - de_de
+  - more will be added soon
 ## build
 ### cmake
 ```

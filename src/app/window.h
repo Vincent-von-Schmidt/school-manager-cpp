@@ -1,5 +1,5 @@
-#ifndef WINDOW_H
-#define WINDOW_H
+/* #ifndef WINDOW_H */
+/* #define WINDOW_H */
 
 #include <iostream>
 #include <QFrame>
@@ -10,4 +10,4 @@ class MainWidget
         MainWidget();
 };
 
-#endif
+/* #endif */
